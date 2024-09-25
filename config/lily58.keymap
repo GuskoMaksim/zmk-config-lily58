@@ -13,18 +13,12 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
-        };
-
         ChangeLeng {
             bindings = <&kp LG(TAB)>;
             key-positions = <29 30>;
         };
 
-        Esc {
+        combo_esc {
             bindings = <&kp ESC>;
             key-positions = <28 31>;
         };
